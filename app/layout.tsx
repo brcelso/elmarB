@@ -28,6 +28,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <div className="flex items-center justify-between">
                 <ModeToggle />
                 <nav className="ml-auto text-sm font-medium space-x-6">
+                  <p>Hinário Luterano Oficial</p>
+                </nav>
+                <nav className="ml-auto text-sm font-medium space-x-6">
                   <Link href="/">Sumario</Link>
                   <Link href="/about">Sobre</Link>
                 </nav>
